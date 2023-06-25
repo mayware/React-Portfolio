@@ -2,29 +2,27 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 750px;
-    width: 1225px;
-    border: 1px solid #415a77;
-    border-radius: 15px;
-    background: #1b263b;
+    min-height: 100vh;
+    width: 100%;
+    background-color: rgba(0, 0, 0, .5);
 }
 
 .brief-card-info {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
     height: 350px;
     width: 500px;
-    /* border: 1px solid #fff; */
+}
+
+.brief-card-text {
+    width: 100%;
+    margin-bottom: 4rem;
 }
 
 .brief-info-welcome-text {
     width: 100%;
     margin-bottom: .5rem;
     font-size: 24px;
-    font-weight: 700;
-    color: #e0e1dd;
+    font-weight: 500;
+    color: #06d6a0;
 }
 
 .typewriter {
@@ -39,7 +37,6 @@
     overflow: hidden;
     border-right: 3px solid;
     font-family: monospace;
-    font-size: 2em;
     font-size: 30px;
     font-weight: 700;
     color: #e0e1dd;
@@ -55,4 +52,30 @@
     50% {
         border-color: transparent
     }
+}
+
+.contact-link-area {
+    width: 100%;
+}
+
+.contact-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 45px;
+    width: 250px;
+    font-size: 20px;
+    border: 1px solid #e0e1dd;
+    /* border-radius: 25px; */
+    background: none;
+    text-decoration: none;
+    color: #e0e1dd;
+    -webkit-box-shadow: 8px 12px 35px 0px rgba(66, 68, 90, 1);
+    -moz-box-shadow: 8px 12px 35px 0px rgba(66, 68, 90, 1);
+    box-shadow: 8px 12px 35px 0px rgba(66, 68, 90, 1);
+    transition: 100ms ease-in-out;
+}
+
+.contact-link:hover {
+    transition: 100ms ease-in-out;
 }

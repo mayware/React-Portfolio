@@ -9,7 +9,11 @@ body {
   font-family: 'Roboto', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background: #000814;
+  background-image: url('./assets/SL-113022-54210-35.jpg');
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
 code {
@@ -19,7 +23,7 @@ code {
 
 .container {
   min-height: 100vh;
-  padding: 85px 0 85px 0;
+  /* padding: 15px 0 85px 0; */
 }
 
 .content {
