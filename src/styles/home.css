@@ -1,7 +1,58 @@
 .brief-card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     height: 750px;
-    width: 1200px;
+    width: 1225px;
     border: 1px solid #415a77;
     border-radius: 15px;
     background: #1b263b;
+}
+
+.brief-card-info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 350px;
+    width: 500px;
+    /* border: 1px solid #fff; */
+}
+
+.brief-info-welcome-text {
+    width: 100%;
+    margin-bottom: .5rem;
+    font-size: 24px;
+    font-weight: 700;
+    color: #e0e1dd;
+}
+
+.typewriter {
+    display: inline-block;
+    width: 100%;
+}
+
+.typed-out {
+    width: 28ch;
+    animation: typing 2s steps(22), blink .9s step-end infinite alternate;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 3px solid;
+    font-family: monospace;
+    font-size: 2em;
+    font-size: 30px;
+    font-weight: 700;
+    color: #e0e1dd;
+}
+
+@keyframes typing {
+    from {
+        width: 0
+    }
+}
+
+@keyframes blink {
+    50% {
+        border-color: transparent
+    }
 }
