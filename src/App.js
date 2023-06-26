@@ -1,4 +1,5 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { useState } from "react";
 import Home from "./components/Home";
 import Portfolio from "./components/Portfolio";
 import About from "./components/About";
@@ -8,12 +9,20 @@ import Sidebar from "./components/Sidebar";
 import Footer from "./components/Footer";
 
 function App() {
+  const [sidebarVisibilty, setSidebarVisibility] = useState(false);
+  const [sidebarBtnIcon, setSidebarBtnIcon] = useState(false);
+
+  function toggleSidebar() {
+    setSidebarVisibility(!sidebarVisibilty);
+    setSidebarBtnIcon(!sidebarBtnIcon);
+  }
+
   return (
     <BrowserRouter>
       <div className="App">
-        <Sidebar />
+        <Navbar toggleSidebar={toggleSidebar} sidebarBtnIcon={sidebarBtnIcon} />
         <div className="container">
-          <Navbar />
+          {sidebarVisibilty && <Sidebar />}
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/portfolio" element={<Portfolio />} />

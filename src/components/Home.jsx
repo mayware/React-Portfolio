@@ -13,7 +13,7 @@ const Home = () => {
                         </div>
                     </div>
                     <div className="contact-link-area">
-                        <Link to="/portfolio" className='contact-link'>My portfolio</Link>
+                        <Link to="/contact" className='contact-link'>Contact me</Link>
                     </div>
                 </div>
             </div>

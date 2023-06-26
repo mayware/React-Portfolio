@@ -1,14 +1,13 @@
 .portfolio-box {
-    height: 800px;
+    height: 100%;
     width: 100%;
-    border-radius: 5px;
 }
 
 .portfolio-intro {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 450px;
+    height: 788px;
 }
 
 .portfolio-intro-title {
@@ -70,10 +69,10 @@ span:nth-child(2) {
     background: linear-gradient(0deg, rgba(2, 0, 36, 1) 0%, rgba(0, 6, 17, 1) 0%, rgba(0, 22, 64, 1) 100%);
 }
 
-.main-projects {
+/* .main-projects {
     height: 400px;
     width: 1200px;
-}
+} */
 
 .projects-title {
     display: flex;
