@@ -7,13 +7,13 @@ const Home = () => {
             <div className="brief-card">
                 <div className="brief-card-info">
                     <div className="brief-card-text">
-                        <div className="brief-info-welcome-text">hello, I'm</div>
+                        <div className="brief-info-welcome-text">Hello, I'm a</div>
                         <div className="typewriter">
                             <div class="typed-out">Front-end React JS Developer</div>
                         </div>
                     </div>
                     <div className="contact-link-area">
-                        <Link to="/contact" className='contact-link'>Contact me</Link>
+                        <Link to="/portfolio" className='contact-link'>My portfolio</Link>
                     </div>
                 </div>
             </div>
