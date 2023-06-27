@@ -1,12 +1,12 @@
 import '../styles/navbar.css';
 import { NavLink } from 'react-router-dom';
-const Navbar = ({ toggleSidebar, sidebarBtnIcon }) => {
+const Navbar = ({ toggleSidebar, hostNameBtn, sidebarBtnIcon }) => {
 
     return (
         <nav className="navbar">
             <div className="nav-left">
                 <div className="nav-title">
-                    <NavLink to="/" className="nav-link nav-host-name">Tofig Valiyev</NavLink>
+                    <NavLink to="/" onClick={hostNameBtn} className="nav-link nav-host-name">Tofig Valiyev</NavLink>
                 </div>
             </div>
             <div className="nav-right">
@@ -18,7 +18,7 @@ const Navbar = ({ toggleSidebar, sidebarBtnIcon }) => {
                 <div className="nav-menu">
                     <button className="sidebar-btn" onClick={toggleSidebar}>
                         {!sidebarBtnIcon && <i className="fa-solid fa-bars"></i>}
-                        {sidebarBtnIcon && <i class="fa-solid fa-xmark"></i>}
+                        {sidebarBtnIcon && <i className="fa-solid fa-xmark"></i>}
                     </button>
                 </div>
             </div>

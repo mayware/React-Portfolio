@@ -1,11 +1,11 @@
 import '../styles/sidebar.css'
 import { NavLink } from 'react-router-dom';
 
-const Sidebar = () => {
+const Sidebar = ({ toggleSidebar }) => {
     return (
         <aside className="sidebar">
             <div className="sidebar-inner">
-                <NavLink to="/" className="sidebar-link">
+                <NavLink to="/" className="sidebar-link" onClick={toggleSidebar}>
                     <div className="sidebar-link-inner">
                         <span className='sidebar-link-icon'>
                             <i class="fa-solid fa-house"></i>
@@ -13,7 +13,7 @@ const Sidebar = () => {
                         <span className="sidebar-link-title">Home</span>
                     </div>
                 </NavLink>
-                <NavLink to="/about" className="sidebar-link">
+                <NavLink to="/about" className="sidebar-link" onClick={toggleSidebar}>
                     <div className="sidebar-link-inner">
                         <span className='sidebar-link-icon'>
                             <i class="fa-solid fa-circle-question"></i>
@@ -21,7 +21,7 @@ const Sidebar = () => {
                         <span className="sidebar-link-title">About</span>
                     </div>
                 </NavLink>
-                <NavLink to="/portfolio" className="sidebar-link">
+                <NavLink to="/portfolio" className="sidebar-link" onClick={toggleSidebar}>
                     <div className="sidebar-link-inner">
                         <span className='sidebar-link-icon'>
                             <i class="fa-solid fa-diagram-project"></i>
@@ -29,7 +29,7 @@ const Sidebar = () => {
                         <span className="sidebar-link-title">Portfolio</span>
                     </div>
                 </NavLink>
-                <NavLink to="/contact" className="sidebar-link">
+                <NavLink to="/contact" className="sidebar-link" onClick={toggleSidebar}>
                     <div className="sidebar-link-inner">
                         <span className='sidebar-link-icon'>
                             <i class="fa-solid fa-envelope"></i>

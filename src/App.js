@@ -12,6 +12,11 @@ function App() {
   const [sidebarVisibilty, setSidebarVisibility] = useState(false);
   const [sidebarBtnIcon, setSidebarBtnIcon] = useState(false);
 
+  function hostNameBtn() {
+    setSidebarVisibility(false);
+    setSidebarBtnIcon(false);
+  }
+
   function toggleSidebar() {
     setSidebarVisibility(!sidebarVisibilty);
     setSidebarBtnIcon(!sidebarBtnIcon);
@@ -20,9 +25,9 @@ function App() {
   return (
     <BrowserRouter>
       <div className="App">
-        <Navbar toggleSidebar={toggleSidebar} sidebarBtnIcon={sidebarBtnIcon} />
+        <Navbar toggleSidebar={toggleSidebar} hostNameBtn={hostNameBtn} sidebarBtnIcon={sidebarBtnIcon} />
         <div className="container">
-          {sidebarVisibilty && <Sidebar />}
+          {sidebarVisibilty && <Sidebar toggleSidebar={toggleSidebar} />}
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/portfolio" element={<Portfolio />} />

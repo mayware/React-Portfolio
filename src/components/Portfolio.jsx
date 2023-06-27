@@ -6,8 +6,7 @@ const Portfolio = () => {
             <div className="portfolio-box">
                 <div className="portfolio-intro">
                     <div className='portfolio-intro-title'>
-                        <span>My</span>
-                        <span>portfolio</span>
+                        <span>My portfolio</span>
                     </div>
                 </div>
                 <div className="portfolio-projects">

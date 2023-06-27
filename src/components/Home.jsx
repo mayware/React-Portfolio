@@ -1,7 +1,7 @@
 import '../styles/home.css'
 import { Link } from 'react-router-dom';
 
-const Home = () => {
+const Home = ({ toggleSidebar }) => {
     return (
         <div className="content">
             <div className="brief-card">
@@ -9,7 +9,7 @@ const Home = () => {
                     <div className="brief-card-text">
                         <div className="brief-info-welcome-text">Hello, I'm a</div>
                         <div className="typewriter">
-                            <div class="typed-out">Front-end React JS Developer</div>
+                            <div className="typed-out">Front-end React JS Developer</div>
                         </div>
                     </div>
                     <div className="contact-link-area">
