@@ -1,0 +1,11 @@
+.contact-content {
+    padding: 1rem;
+}
+
+.contact-box {
+    height: 700px;
+    width: 900px;
+    border: 1px solid #06d6a0;
+    border-radius: 15px;
+    background-color: rgba(0, 0, 0, .4);
+}

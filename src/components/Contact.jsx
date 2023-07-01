@@ -1,7 +1,14 @@
+import '../styles/contact.css'
+
 const Contact = () => {
     return (
         <div className="content">
-            <h1>Contact page</h1>
+            <div className="contact-content">
+                <div className="contact-box">
+
+                </div>
+            </div>
+
         </div>
     );
 }
