@@ -8,7 +8,7 @@ const Sidebar = ({ toggleSidebar }) => {
                 <NavLink to="/" className="sidebar-link" onClick={toggleSidebar}>
                     <div className="sidebar-link-inner">
                         <span className='sidebar-link-icon'>
-                            <i class="fa-solid fa-house"></i>
+                            <i className="fa-solid fa-house"></i>
                         </span>
                         <span className="sidebar-link-title">Home</span>
                     </div>
@@ -16,7 +16,7 @@ const Sidebar = ({ toggleSidebar }) => {
                 <NavLink to="/about" className="sidebar-link" onClick={toggleSidebar}>
                     <div className="sidebar-link-inner">
                         <span className='sidebar-link-icon'>
-                            <i class="fa-solid fa-circle-question"></i>
+                            <i className="fa-solid fa-circle-question"></i>
                         </span>
                         <span className="sidebar-link-title">About</span>
                     </div>
@@ -24,7 +24,7 @@ const Sidebar = ({ toggleSidebar }) => {
                 <NavLink to="/portfolio" className="sidebar-link" onClick={toggleSidebar}>
                     <div className="sidebar-link-inner">
                         <span className='sidebar-link-icon'>
-                            <i class="fa-solid fa-diagram-project"></i>
+                            <i className="fa-solid fa-diagram-project"></i>
                         </span>
                         <span className="sidebar-link-title">Portfolio</span>
                     </div>
@@ -32,7 +32,7 @@ const Sidebar = ({ toggleSidebar }) => {
                 <NavLink to="/contact" className="sidebar-link" onClick={toggleSidebar}>
                     <div className="sidebar-link-inner">
                         <span className='sidebar-link-icon'>
-                            <i class="fa-solid fa-envelope"></i>
+                            <i className="fa-solid fa-envelope"></i>
                         </span>
                         <span className="sidebar-link-title">Contacts</span>
                     </div>

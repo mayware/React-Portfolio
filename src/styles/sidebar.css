@@ -5,7 +5,7 @@
     position: absolute;
     top: 75px;
     right: 0;
-    height: 100vh;
+    /* height: 900px; */
     width: 100%;
     background-color: rgba(0, 0, 0, .7);
     z-index: 1;
@@ -13,13 +13,13 @@
 
 .sidebar-inner {
     display: flex;
-    /* align-items: center;
-    justify-content: center; */
+    align-items: center;
+    justify-content: center;
     flex-direction: column;
-    height: 600px;
+    /* height: 600px; */
     width: 900px;
     backdrop-filter: blur(20px);
-    /* border: 1px solid #fff; */
+    border: 1px solid #fff;
 }
 
 .sidebar-link {
