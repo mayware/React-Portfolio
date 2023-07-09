@@ -1,16 +1,14 @@
 .brief-card {
-    width: 100vw;
-    position: relative;
-    text-align: center;
-    vertical-align: middle;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin: 1rem;
+    /* border: 1px solid #fff; */
 }
 
 .brief-card-info {
-    position: absolute;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    height: 100px;
-    width: 555px;
+    width: 600px;
 }
 
 .brief-card-text {

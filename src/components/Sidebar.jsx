@@ -26,7 +26,7 @@ const Sidebar = ({ toggleSidebar }) => {
                         <span className='sidebar-link-icon'>
                             <i className="fa-solid fa-diagram-project"></i>
                         </span>
-                        <span className="sidebar-link-title">Portfolio</span>
+                        <span className="sidebar-link-title">Projects</span>
                     </div>
                 </NavLink>
                 <NavLink to="/contact" className="sidebar-link" onClick={toggleSidebar}>

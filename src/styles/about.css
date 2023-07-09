@@ -1,0 +1,90 @@
+.about-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    /* padding: 1rem; */
+    border: 1px solid #fff;
+}
+
+.skills-box {
+    width: 100%;
+    padding: 1rem;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, .4);
+}
+
+.skills-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 70px;
+    width: 100%;
+    margin-bottom: 2rem;
+    /* border: 1px solid #fff; */
+}
+
+.skills-header-title {
+    font-size: 30px;
+    font-weight: 700;
+    color: #fff;
+}
+
+.skills-icons {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 35px;
+    justify-items: center;
+}
+
+.skill-icon-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 135px;
+    width: 135px;
+    font-size: 75px;
+    border-radius: 5px;
+    background: #151515;
+    border: 1px solid #000;
+    -webkit-box-shadow: 8px 8px 24px 0px rgba(0, 0, 0, 1);
+    -moz-box-shadow: 8px 8px 24px 0px rgba(0, 0, 0, 1);
+    box-shadow: 8px 8px 24px 0px rgba(0, 0, 0, 1);
+}
+
+.js-icon {
+    color: #EAD41C;
+}
+
+.react-icon {
+    color: #00CCF1;
+}
+
+.vue-icon {
+    color: #3EAF7C;
+}
+
+.node-icon {
+    color: #21AB58;
+}
+
+.html-icon {
+    color: #D84924;
+}
+
+.css-icon {
+    color: #2449D8;
+}
+
+.scss-icon {
+    color: #C65F93;
+}
+
+.bootstrap-icon {
+    color: #6D11EA;
+}
+
+.git-icon {
+    color: #F2F2F2;
+}
