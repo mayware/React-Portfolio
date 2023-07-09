@@ -9,7 +9,7 @@ body {
   font-family: 'Roboto', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background: #0d1b2a;
+  background: #041C32;
   /* background-image: url('./assets/SL-113022-54210-35.jpg');
   background-attachment: fixed;
   background-repeat: no-repeat;
@@ -24,20 +24,15 @@ code {
 }
 
 .container {
-  position: relative;
-  min-height: 100vh;
-  border: 1px solid #fff;
+  /* min-height: 100vh; */
 }
 
 .content {
   display: flex;
   align-items: center;
   justify-content: center;
-  position: absolute;
-  width: 100%;
-  /* height: 100%; */
+  min-height: 786px;
   margin-top: 75px;
-  border: 1px solid red;
 }
 
 span {

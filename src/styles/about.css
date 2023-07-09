@@ -1,31 +1,44 @@
 .about-box {
-    display: grid;
-    grid-template-columns: 1fr;
-    width: 100%;
-    /* padding: 1rem; */
+    border: 1px solid #000;
+    border-radius: 5px;
 }
 
-.about-info {
-    /* border: 1px solid #fff; */
-    height: 400px;
+.brief-info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 542px;
+    padding: 2.5rem;
     background-color: rgba(0, 0, 0, .4);
+    color: #fff;
+}
+
+.brief-info-text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 550px;
+    margin-right: 1rem;
+}
+
+.brief-info-image {
+    height: 100%;
+    width: 550px;
 }
 
 .skills-box {
     width: 100%;
     padding: 1rem;
-    border-radius: 5px;
-    background-color: rgba(0, 0, 0, .4);
+    background: #000814;
 }
 
 .skills-header {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 70px;
-    width: 100%;
-    margin-bottom: 2rem;
-    /* border: 1px solid #fff; */
+    min-height: 70px;
+    margin-bottom: 1rem;
 }
 
 .skills-header-title {
@@ -36,7 +49,7 @@
 
 .skills-icons {
     display: grid;
-    grid-template-columns: repeat(7, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     gap: 35px;
     justify-items: center;
 }
@@ -45,7 +58,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 135px;
+    min-height: 135px;
     width: 135px;
     font-size: 75px;
     border-radius: 5px;
@@ -53,35 +66,49 @@
 
 .js-icon {
     color: #EAD41C;
-    text-shadow: 4px 4px 27px rgba(10, 10, 12, 1);
 }
 
 .react-icon {
     color: #00CCF1;
-    text-shadow: 4px 4px 27px rgba(10, 10, 12, 1);
 }
 
 .node-icon {
     color: #21AB58;
-    text-shadow: 4px 4px 27px rgba(10, 10, 12, 1);
 }
 
 .html-icon {
     color: #D84924;
-    text-shadow: 4px 4px 27px rgba(10, 10, 12, 1);
 }
 
 .css-icon {
     color: #2449D8;
-    text-shadow: 4px 4px 27px rgba(10, 10, 12, 1);
 }
 
 .scss-icon {
     color: #C65F93;
-    text-shadow: 4px 4px 27px rgba(10, 10, 12, 1);
 }
 
 .bootstrap-icon {
     color: #6D11EA;
-    text-shadow: 4px 4px 27px rgba(10, 10, 12, 1);
+}
+
+.git-icon {
+    color: #E44C30;
+}
+
+.commercial-experience-box {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 10px;
+    padding: 2.5rem;
+    min-height: 500px;
+    background-color: rgba(0, 0, 0, .4);
+}
+
+.comm-exp-position {
+    min-height: 300px;
+    min-width: 700px;
+    border: 1px solid #06d6a0;
+    border-radius: 5px;
+    background: #000814;
 }
