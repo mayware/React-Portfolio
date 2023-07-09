@@ -16,9 +16,6 @@ const About = () => {
                             <i class="fa-brands fa-react react-icon"></i>
                         </div>
                         <div className="skill-icon-box">
-                            <i class="fa-brands fa-vuejs vue-icon"></i>
-                        </div>
-                        <div className="skill-icon-box">
                             <i class="fa-brands fa-node node-icon"></i>
                         </div>
                         <div className="skill-icon-box">
@@ -33,11 +30,10 @@ const About = () => {
                         <div className="skill-icon-box">
                             <i class="fa-brands fa-bootstrap bootstrap-icon"></i>
                         </div>
-                        <div className="skill-icon-box">
-                            <i class="fa-brands fa-square-github git-icon"></i>
-                        </div>
                     </div>
                 </div>
+                <div className="about-info"></div>
+
             </div>
         </div>
     );

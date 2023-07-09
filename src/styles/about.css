@@ -1,11 +1,14 @@
 .about-box {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
+    display: grid;
+    grid-template-columns: 1fr;
     width: 100%;
     /* padding: 1rem; */
-    border: 1px solid #fff;
+}
+
+.about-info {
+    /* border: 1px solid #fff; */
+    height: 400px;
+    background-color: rgba(0, 0, 0, .4);
 }
 
 .skills-box {
@@ -33,7 +36,7 @@
 
 .skills-icons {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(7, 1fr);
     gap: 35px;
     justify-items: center;
 }
@@ -46,45 +49,39 @@
     width: 135px;
     font-size: 75px;
     border-radius: 5px;
-    background: #151515;
-    border: 1px solid #000;
-    -webkit-box-shadow: 8px 8px 24px 0px rgba(0, 0, 0, 1);
-    -moz-box-shadow: 8px 8px 24px 0px rgba(0, 0, 0, 1);
-    box-shadow: 8px 8px 24px 0px rgba(0, 0, 0, 1);
 }
 
 .js-icon {
     color: #EAD41C;
+    text-shadow: 4px 4px 27px rgba(10, 10, 12, 1);
 }
 
 .react-icon {
     color: #00CCF1;
-}
-
-.vue-icon {
-    color: #3EAF7C;
+    text-shadow: 4px 4px 27px rgba(10, 10, 12, 1);
 }
 
 .node-icon {
     color: #21AB58;
+    text-shadow: 4px 4px 27px rgba(10, 10, 12, 1);
 }
 
 .html-icon {
     color: #D84924;
+    text-shadow: 4px 4px 27px rgba(10, 10, 12, 1);
 }
 
 .css-icon {
     color: #2449D8;
+    text-shadow: 4px 4px 27px rgba(10, 10, 12, 1);
 }
 
 .scss-icon {
     color: #C65F93;
+    text-shadow: 4px 4px 27px rgba(10, 10, 12, 1);
 }
 
 .bootstrap-icon {
     color: #6D11EA;
-}
-
-.git-icon {
-    color: #F2F2F2;
+    text-shadow: 4px 4px 27px rgba(10, 10, 12, 1);
 }
