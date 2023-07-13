@@ -25,8 +25,8 @@ function App() {
   return (
     <BrowserRouter>
       <div className="App">
-        <Navbar toggleSidebar={toggleSidebar} hostNameBtn={hostNameBtn} sidebarBtnIcon={sidebarBtnIcon} />
         <div className="container">
+          <Navbar toggleSidebar={toggleSidebar} hostNameBtn={hostNameBtn} sidebarBtnIcon={sidebarBtnIcon} />
           {sidebarVisibilty && <Sidebar toggleSidebar={toggleSidebar} />}
           <Routes>
             <Route path="/" element={<Home />} />
